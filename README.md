@@ -475,7 +475,7 @@ If you like this project, don't forget to give it a star! ⭐
 
 https://img.shields.io/github/stars/yourusername/EarnX-Pro-Bot?style=for-the-badge
 https://img.shields.io/github/forks/yourusername/EarnX-Pro-Bot?style=for-the-badge
-https://img.shields.io/github/issues/yourusername/EarnX-Pro-Bot?style=for-the-badge
+https://img.shields.io/github/issues/Sagor/EarnX-Pro-Bot?style=for-the-badge
 
 </div>
 
