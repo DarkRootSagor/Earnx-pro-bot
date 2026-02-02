@@ -231,6 +231,259 @@ Built With
 · SQLite3 - Database management
 · python-dotenv - Environment variable management
 
+```
+
+🐛 Troubleshooting
+
+Common Issues & Solutions
+
+Issue 1: Bot not responding
+
+```bash
+# Check bot token
+echo $BOT_TOKEN
+
+# Check Python version
+python3 --version
+
+# Check dependencies
+pip3 list | grep telegram
+```
+
+Issue 2: Channel membership not detected
+
+```markdown
+1. Make sure bot is admin in the channel
+2. Check channel username format (without @ in .env)
+3. Verify user has actually joined the channel
+4. Test with another account
+```
+
+Issue 3: Database errors
+
+```bash
+# Check database permissions
+ls -la database/
+
+# Check disk space
+df -h
+
+# Repair database (if needed)
+sqlite3 database/earnx_bot.db ".schema"
+```
+
+Issue 4: Withdrawal not working
+
+```markdown
+1. Check user's wallet is set
+2. Verify minimum withdrawal amount
+3. Check payment channel membership
+4. Ensure sufficient balance
+5. Check admin approval system
+```
+
+Logs
+
+The bot provides detailed console logs:
+
+· User registration and activities
+· Withdrawal requests and processing
+· Error messages and debugging info
+· Admin actions and modifications
+
+📝 FAQ
+
+Q: How do I get my Telegram User ID?
+
+A: Use @userinfobot on Telegram to get your user ID.
+
+Q: How to add bot as admin to channel?
+
+A:
+
+1. Go to your channel
+2. Add the bot as member
+3. Go to channel settings > Administrators
+4. Add the bot as admin with all permissions
+
+Q: Can I change the currency?
+
+A: Yes, edit CURRENCY in .env file.
+
+Q: Is this bot free to use?
+
+A: Yes, this bot is completely free and open-source under MIT License.
+
+Q: Can I customize the bot?
+
+A: Absolutely! The code is open-source and you can modify it as needed.
+
+Q: How to update the bot?
+
+A:
+
+```bash
+git pull origin main
+pip install -r requirements.txt
+```
+
+🤝 Contributing
+
+We love your input! We want to make contributing to EarnX Pro Bot as easy and transparent as possible.
+
+How to Contribute
+
+1. Fork the repository
+2. Create your feature branch (git checkout -b feature/AmazingFeature)
+3. Commit your changes (git commit -m 'Add some AmazingFeature')
+4. Push to the branch (git push origin feature/AmazingFeature)
+5. Open a Pull Request
+
+Development Setup
+
+```bash
+# Clone your fork
+git clone https://github.com/DarkRootSagor/EarnX-Pro-Bot.git
+cd EarnX-Pro-Bot
+
+# Create virtual environment
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Make changes and test
+python bot.py
+```
+
+Pull Request Guidelines
+
+· Update README.md with details of changes
+· Update .env.example if adding new environment variables
+· Add tests if applicable
+· Ensure your code follows Python best practices
+
+📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+```
+MIT License
+
+Copyright (c) 2026 Sagor Sheikh
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+👥 Support
+
+Need Help?
+
+· 📖 Documentation: Read this README carefully
+· 🐛 Bug Reports: Open an Issue
+· 💡 Feature Requests: Suggest a Feature
+· 💬 Community: Join our support chat (configured in .env)
+
+Quick Support
+
+```
+1. Check the Troubleshooting section
+2. Search existing issues
+3. Create a new issue with details:
+   - Error message
+   - Steps to reproduce
+   - Screenshots if possible
+   - Your .env configuration (without sensitive data)
+```
+
+⭐ Show Your Support
+
+If you find this project helpful, please give it a star! ⭐
+
+https://api.star-history.com/svg?repos=yourusername/EarnX-Pro-Bot&type=Date
+
+🙏 Acknowledgments
+
+Thanks to
+
+· python-telegram-bot team for the amazing library
+· All contributors who have helped improve this project
+· The Telegram community for support and feedback
+· Open source community for inspiration
+
+Special Thanks
+
+· You for using this bot!
+· All testers who helped find bugs
+· Everyone who submitted feature requests
+· The open-source community
+
+📞 Contact
+
+Project Maintainer: Sagor Sheikh
+Email: sagors8899@gmail.com
+Telegram: @TheSagorOfficial
+GitHub: @DarkRootSagor
+
+Project Link: https://github.com/DarkRootSagor/EarnX-Pro-Bot
+
+🔗 Useful Links
+
+· Telegram Bot API Documentation
+· Python Telegram Bot Library
+· Create Telegram Bot
+· Get Telegram User ID
+· SQLite Documentation
+· Python Documentation
+
+📊 Project Status
+
+https://img.shields.io/github/last-commit/yourusername/EarnX-Pro-Bot
+https://img.shields.io/github/issues/yourusername/EarnX-Pro-Bot
+https://img.shields.io/github/issues-pr/yourusername/EarnX-Pro-Bot
+https://img.shields.io/github/contributors/yourusername/EarnX-Pro-Bot
+
+Current Version: v1.0.0
+Last Updated: October 2024
+Active Development: Yes
+Maintenance: Regular updates and bug fixes
+
+---
+
+<div align="center">
+
+Made with ❤️ for the Telegram Community
+
+If you like this project, don't forget to give it a star! ⭐
+
+https://img.shields.io/github/stars/yourusername/EarnX-Pro-Bot?style=for-the-badge
+https://img.shields.io/github/forks/yourusername/EarnX-Pro-Bot?style=for-the-badge
+https://img.shields.io/github/issues/yourusername/EarnX-Pro-Bot?style=for-the-badge
+
+</div>
+
+---
+
+Disclaimer: This bot is for educational purposes. Users are responsible for complying with all applicable laws and Telegram's Terms of Service. The developers are not responsible for any misuse or damages caused by this software.
+
+```
 
 
 
