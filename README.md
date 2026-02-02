@@ -27,7 +27,7 @@ A fully-featured Telegram earning bot with channel membership verification, refe
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/EarnX-Pro-Bot.git
+git clone https://github.com/DarkRootSagor/Earnx-pro-bot.git
 cd EarnX-Pro-Bot
 ```
 
