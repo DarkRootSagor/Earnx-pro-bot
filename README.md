@@ -417,7 +417,7 @@ Quick Support
 
 If you find this project helpful, please give it a star! ⭐
 
-https://api.star-history.com/svg?repos=yourusername/EarnX-Pro-Bot&type=Date
+https://api.star-history.com/svg?repos=DarkRootSagor/EarnX-Pro-Bot&type=Date
 
 🙏 Acknowledgments
 
@@ -455,10 +455,10 @@ Project Link: https://github.com/DarkRootSagor/EarnX-Pro-Bot
 
 📊 Project Status
 
-https://img.shields.io/github/last-commit/yourusername/EarnX-Pro-Bot
-https://img.shields.io/github/issues/yourusername/EarnX-Pro-Bot
-https://img.shields.io/github/issues-pr/yourusername/EarnX-Pro-Bot
-https://img.shields.io/github/contributors/yourusername/EarnX-Pro-Bot
+https://img.shields.io/github/last-commit/DarkRootSagor/EarnX-Pro-Bot
+https://img.shields.io/github/issues/DarkRootSagor/EarnX-Pro-Bot
+https://img.shields.io/github/issues-pr/DarkRootSagor/EarnX-Pro-Bot
+https://img.shields.io/github/contributors/DarkRootSagor/EarnX-Pro-Bot
 
 Current Version: v1.0.0
 Last Updated: October 2024
@@ -473,9 +473,9 @@ Made with ❤️ for the Telegram Community
 
 If you like this project, don't forget to give it a star! ⭐
 
-https://img.shields.io/github/stars/yourusername/EarnX-Pro-Bot?style=for-the-badge
-https://img.shields.io/github/forks/yourusername/EarnX-Pro-Bot?style=for-the-badge
-https://img.shields.io/github/issues/Sagor/EarnX-Pro-Bot?style=for-the-badge
+https://img.shields.io/github/stars/DarkRootSagor/EarnX-Pro-Bot?style=for-the-badge
+https://img.shields.io/github/forks/DarkRootSagor/EarnX-Pro-Bot?style=for-the-badge
+https://img.shields.io/github/issues/DarkRootSagor/EarnX-Pro-Bot?style=for-the-badge
 
 </div>
 
